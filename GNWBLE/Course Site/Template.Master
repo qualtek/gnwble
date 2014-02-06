@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Template.master.cs" Inherits="Course_Site.Template" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="utf-8" />
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link type="text/css" rel="stylesheet" href="css/typography.css">
+	<link type="text/css" rel="stylesheet" href="css/SearchBoxTins.css">
+	<link rel="stylesheet" href="css/calendarview.css">
+	<script src="js/argiepolicarpio.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/application.js" type="text/javascript" charset="utf-8"></script>
+        
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css' >
+	<title>Dashboard | GNWBLC</title>
+	
+	<!--For PCalendar-->
+    <script src="js/prototype.js"></script>
+    <script src="js/calendarview.js"></script>
+    <script type="text/javascript">
+        function setupCalendars() {
+            // Embedded Calendar
+            Calendar.setup(
+              {
+                  dateField: 'embeddedDateField',
+                  parentElement: 'embeddedCalendar'
+              }
+            )
+        }
+
+        Event.observe(window, 'load', function () { setupCalendars() })
+    </script>
+    <asp:ContentPlaceHolder ID="scripts" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!--For Search-->
+	<script src="/../../../../../../http:/www.google.com/jsapi" type='text/javascript'></script>
+	<script type='text/javascript'>
+	    google.load('search', '1', { language: 'en', style: google.loader.themes.V2_DEFAULT });
+	    google.setOnLoadCallback(function () {
+	        var customSearchOptions = {};
+	        var orderByOptions = {};
+	        orderByOptions['keys'] = [{ label: 'Relevance', key: '' }, { label: 'Date', key: 'date' }];
+	        customSearchOptions['enableOrderBy'] = true;
+	        customSearchOptions['orderByOptions'] = orderByOptions;
+	        customSearchOptions['overlayResults'] = true;
+	        var customSearchControl = new google.search.CustomSearchControl('015662392703032799914:8ew4iphao1q', customSearchOptions);
+	        customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+	        var options = new google.search.DrawOptions();
+	        options.setAutoComplete(true);
+	        customSearchControl.draw('cse', options);
+	    }, true);
+	</script>
+	<div id="top_bg">
+		<div id="header">
+			<div id="logo">
+				<img alt="GN Logo" src="images/logo.png">
+				<p>Web based learning<br><span>environment</span></p>
+			</div>
+			<ul id="top_nav">
+				<li><a href="">Account Settings</a></li>
+				<li><a href="">Sign out</a></li>
+				<li><a href="">Help</a></li>
+			</ul>
+			<h2>my workstation</h2>
+			<div id="calendar">
+				<asp:ContentPlaceHolder ID="calendar_noticeBoard_container" runat="server">
+
+				</asp:ContentPlaceHolder>
+			</div>
+			<nav>
+				<ul id="navBar">
+					<li class="active"><a href="default.html">Dashboard</a></li>
+					<li><a href="course.aspx">Courses</a></li>
+					<li><a href="library.html">Library</a></li>
+					<li><a href="achievements.html">Achievements</a></li>
+					<li><a href="chat.html">Chat</a></li>
+					<li><a href="reminder.html">Reminders</a></li>
+					<li><div id='cse' style='width: 100%;'>Loading...</div></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+ 	<center><img src="images/shadow.png" alt="shadow" /></center>
+    <form runat="server">
+        <asp:ContentPlaceHolder ID="main_content" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </form>
+    <div id="footer">
+ 		<div class="divider"></div>
+    	<ul id="footer_links">
+        </ul>
+	    <div id="footer_copyright">
+			<span id="c1">&copy; 2013 AMANSAM TELEVISION. ALL RIGHTS RESERVED.</span>
+	        <span id="c2">DESIGNED AND DEVELOPED BY QUALTEK GHANA.</span>
+	    </div>
+ 	</div>
+</body>
+
+</html>

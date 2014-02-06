@@ -1,0 +1,258 @@
+﻿@font-face
+{
+	font-family: Cabin;
+	src: url(../font/Cabin-Regular.otf);
+}
+
+*{
+	font-family: Cabin, sans-serif;
+	font-weight: 300;
+	color:#eeeeee;
+	line/-height:16px;
+	font-size: 1em;
+	word-spacing: normal;
+}
+
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration:none;
+}
+
+h2{
+	font-size:30px;
+	float:left;
+	clear:left;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+h6{
+	font-size:13px;
+	line-height:13px;
+	padding:0 0 20px 0;
+	margin:0;
+}
+
+#logo p{
+	font-size: 21px;
+	line-height: 22px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#logo p span{
+	font-size: 19px;
+	line-height:17px;
+	font-weight:600;
+	letter-spacing: 5px;
+	text-transform:uppercase;
+}
+
+.calendar{
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+}
+
+.nb{
+	text-align:right;
+	font-size: 11px;
+	line-height:11px;
+}
+
+#navBar{
+	font-size:12px;
+}
+
+.lineBreak{
+	width:100%;
+	height:1px;
+	clear:both;
+	background-color:#296F79;
+}
+
+.b1 h4{
+	font-size:36px;
+}
+
+.b2 p, .b3 p{
+	line-height:10px;
+}
+
+.b1 p{
+	text-transform:uppercase;
+	font-size:10px;
+}
+
+.b1 h4, .b2 h4, .b3 h4{
+	color:#eee;
+}
+
+.b1 p, .b2 p, .b3 p{
+	color:#338d8d;
+}
+
+.b2 h4, .b3 h4{
+	font-size:33px;
+}
+
+.b2 p, b3 p{
+	font-size:15px;
+}
+
+.acdn h3{
+	margin:0;
+}
+
+.acdn p {
+	text-align: left;
+	margin: 0 0 0 5px;
+}
+
+h4, p{
+	text-align:center;
+	margin:0;
+	padding:9px 0;
+}
+
+h4{
+	line-height:15px;
+}
+
+h5, .button, label, input, textbox{
+	text-transform: lowercase;
+}
+
+h5{
+	font-size: 19px;
+	line-height: 15px;
+	margin: 15px 0;
+}
+#lessons_list ul li{
+	font-family:'Times New Roman';
+    color:#000;
+}
+
+#pie_chart_label{
+	color:#fff;
+}
+
+#pie_chart_label h4{
+	font-size:47px;
+	font-weight:400;
+	position:relative;
+}
+
+#pie_chart_label h4 span{
+	font-size:19px;
+	color:#9ea7b3;
+	position:absolute;
+	top:0;
+}
+
+#pie_chart_label p{
+	font-size:15px;
+	color:#f1f1f3;
+}
+
+h1{
+	font-size:17px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+.button:focus {
+    outline: none;
+}
+
+#resultTable{
+	font-size:13px;
+	color:#fff;
+}
+#table_header2, #resultTable tbody .record td{
+	font-size:11px;		  
+}
+
+.widget_heading p{
+	line-height:70px;
+	text-transform:uppercase;
+	font-weight:400;
+	font-size:21px;
+	color:#fff;
+}
+
+#c, #l, #g, #res, #rem{
+	text-transform:uppercase;
+	font-size:13px;
+	color:#338d8d;
+}
+
+#c a:hover, #l a:hover, #g a:hover, #res a:hover, #rem a:hover{
+	color:#00b294;
+}
+
+#tool_list li{
+	height: 50px;
+	line-height:50px;
+}
+
+#tool_list li a{
+	font-weight:400;
+}
+
+#r_list li{
+	text-transform:lowercase;
+	font-size:10px;
+	color:#eee;
+}
+
+.mb p{
+	color:#007070;
+}
+
+.gmt{
+	text-align: center;
+}
+
+.time{
+	font-size:11px;
+}
+
+.date{
+	font-size:9px;
+}
+
+#overdue li, #overdue li .gmt span{
+	opacity:0.7;
+}
+
+.title{
+	font-size: 21px !important;
+}
+
+#footer_links{
+	font-size:9px;
+}
+
+#footer_copyright{
+	font-size:10px;
+}
+
+#footer_links a{
+	text-decoration:none;
+}
+
+#footer_links a:hover{
+	text-decoration:underline;
+}
+
+/*Gridview styling*/
+input, select, option{
+	background:none;
+	border:none;
+}
+
+
