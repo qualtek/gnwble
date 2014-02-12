@@ -281,16 +281,17 @@ h2{
 #mailbox{
 	float:left;
 	clear:right;
-	width:260px;
+	width:200px;
 	min-height: 350px;
-	background-/color:#013d3d;
+	backgro/und-color:#013d3d;
+    padding: 0 0 0 36px;
 }
 
 /*Google Button*/
 button.btn {
 	width: 180px;
 	height: 34px;
-	margin: 10px 0 0 0px;
+	margin: 1px 0 0 0px;
 	cursor:pointer;
 }
 .btn_connect.hangout {

@@ -73,7 +73,7 @@
 			</div>
 			<nav>
 				<ul id="navBar">
-					<li class="active"><a href="default.html">Dashboard</a></li>
+					<li class="active"><a href="default.aspx">Dashboard</a></li>
 					<li><a href="course.aspx">Courses</a></li>
 					<li><a href="library.html">Library</a></li>
 					<li><a href="achievements.html">Achievements</a></li>
