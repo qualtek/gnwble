@@ -284,11 +284,11 @@ h2{
 	width:200px;
 	min-height: 350px;
 	backgro/und-color:#013d3d;
-    padding: 0 0 0 36px;
+    padding: 0 0 0 40px;
 }
 
 /*Google Button*/
-button.btn {
+button.btn1 {
 	width: 180px;
 	height: 34px;
 	margin: 1px 0 0 0px;
@@ -699,6 +699,51 @@ th img{
 #c2{
 	float:right;
 	margin-right:100px;
+}
+
+/*Result Page*/
+#buttonContainer{
+	width:180px;
+	height:150px;
+	float:left;
+}
+
+.btn {
+	width: 150px;
+	height: 60px;
+	cur/sor:pointer;
+	text-align:left;
+	padding: 15px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.btn_courses.completed {
+	color: #ffffff;
+	background: #005555;
+	border: 1px solid #338D8D;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	margin-bottom: 10px;
+}
+.btn_courses.assigned {
+	color: #ffffff;
+	background: #338D8D;
+	border: 1px solid #005555;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	margin-bottom: 10px;
+}
+/*
+.btn_connect.hangout:hover {
+	background: #005555;
+	border: 1px solid #338D8D;
+}
+*/
+
+#pieChart{
+	width: 310px;
+	height: 200px;
+	background-color:#005555; 
+	margin: 0 auto;
+	float:right;
 }
 
 
