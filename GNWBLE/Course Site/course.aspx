@@ -35,8 +35,6 @@
 			</script>
             <asp:GridView ID="resultTable" runat="server" CssClass="course_list">
                 <Columns>
-                    <asp:BoundField HeaderText="Training Modules" ReadOnly="True" />
-                    <asp:BoundField HeaderText="Internal trainer name" />
                     <asp:TemplateField HeaderText="Chat with the instructor">
                         <ItemTemplate>
                             <script src="https://apis.google.com/js/platform.js"></script>
@@ -49,9 +47,6 @@
 							</script>
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:BoundField HeaderText="Lesson Type" />
-                    <asp:BoundField HeaderText="Completion Status" ReadOnly="True" />
-                    <asp:BoundField HeaderText="Completion Date" DataFormatString="{0:D}" ReadOnly="True" />
                 </Columns>
             </asp:GridView>
  			<table id="resultTa1ble" class="course_list">
@@ -69,7 +64,7 @@
  					<tr class="record">
  						<td>
  							<div class="acdn">
-  								<h3><a href="lesson_viewer_text.aspx">Microsoft Office 2007 Suite</a></h3>
+  								<h3><a href="lesson_viewer_text.aspx"><span class="ui-icon ui-icon-newwin"></span> Microsoft Office 2007 Suite</a></h3>
   								<div>
     								<p>Mauris mauris ante, blandit et, ultrices a, susceros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
   								</div>

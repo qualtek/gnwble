@@ -211,7 +211,7 @@ h2{
 	margin-right:55px;
 }
 
-.bar, #pie_chart, #calendar_note, #mailbox, #my_tools, #resultTable, #tool_list, #reminder{
+.bar, #pie_chart, #calendar_note, #mailbox, #my_tools, #main_content_resultTable, #tool_list, #reminder{
 	margin-bottom:45px;
 }
 
@@ -281,17 +281,16 @@ h2{
 #mailbox{
 	float:left;
 	clear:right;
-	width:200px;
+	width:260px;
 	min-height: 350px;
-	backgro/und-color:#013d3d;
-    padding: 0 0 0 40px;
+	background-/color:#013d3d;
 }
 
 /*Google Button*/
-button.btn1 {
+button.btn {
 	width: 180px;
 	height: 34px;
-	margin: 1px 0 0 0px;
+	margin: 10px 0 0 0px;
 	cursor:pointer;
 }
 .btn_connect.hangout {
@@ -424,7 +423,7 @@ button.btn1 {
 	background-color:#eee;
 }
 
-#resultTable {
+#main_content_resultTable {
 	width: 700px;
 }
 
@@ -457,16 +456,16 @@ th img{
 	text-align: right !important;
 	padding-right:10px !important;
 }
-#resultTable tbody .record td{
+#main_content_resultTable tbody .record td{
 	border-bottom:solid #307785 1px;
 	text-align:left;
 }
 
-#resultTable tbody tr:last-child td{
+#main_content_resultTable tbody tr:last-child td{
 	border-bottom:none;
 }
 
-#resultTable th.sortable {
+#main_content_resultTable th.sortable {
 	color: #fff;
 	letter-spacing: 2px;
 	padding: 10px 6px;
@@ -475,7 +474,7 @@ th img{
 	cursor: pointer;
 	text-decoration: none;isi
 }
-#resultTable th {
+#main_content_resultTable th {
 	color: #FFF;
 	letter-spacing: 2px;
 	padding: 3px 3px 3px 6px;
@@ -486,19 +485,19 @@ th img{
 	text-decoration: none;
 }
 
-#resultTable td {
+#main_content_resultTable td {
 	padding: 6px;
 }
 
-#resultTable td.odd {
+#main_content_resultTable td.odd {
 	
 }
 
-#resultTable .dashboard td.hovered {
+#main_content_resultTable .dashboard td.hovered {
 	background-color: #2b2b2b;
 }
 
-#resultTable td.hovered{
+#main_content_resultTable td.hovered{
 	cursor:pointer;
 	color: #FFF;
 }
@@ -699,51 +698,6 @@ th img{
 #c2{
 	float:right;
 	margin-right:100px;
-}
-
-/*Result Page*/
-#buttonContainer{
-	width:180px;
-	height:150px;
-	float:left;
-}
-
-.btn {
-	width: 150px;
-	height: 60px;
-	cur/sor:pointer;
-	text-align:left;
-	padding: 15px;
-	font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
-	font-size:12px;
-}
-.btn_courses.completed {
-	color: #ffffff;
-	background: #005555;
-	border: 1px solid #338D8D;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),inset 0 1px 0 rgba(255, 255, 255, 0.2);
-	margin-bottom: 10px;
-}
-.btn_courses.assigned {
-	color: #ffffff;
-	background: #338D8D;
-	border: 1px solid #005555;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),inset 0 1px 0 rgba(255, 255, 255, 0.2);
-	margin-bottom: 10px;
-}
-/*
-.btn_connect.hangout:hover {
-	background: #005555;
-	border: 1px solid #338D8D;
-}
-*/
-
-#pieChart{
-	width: 310px;
-	height: 200px;
-	background-color:#005555; 
-	margin: 0 auto;
-	float:right;
 }
 
 

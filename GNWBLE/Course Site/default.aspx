@@ -193,17 +193,16 @@
 		</div>
 		<div id="mailbox" class="box">
         	<!-- Google Badge. -->
-            <div id="badge" class="g-community" data-href="https://plus.google.com/communities/112739682321271978802" data-width="180" ></div>
+            <div class="g-person" data-href="//plus.google.com/116758256878037763445" data-rel="author" data-width="180" ></div>
             <script type="text/javascript">
                 (function () {
                     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                    po.src = 'js/platform.js';
+                    po.src = 'platform.js';
                     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
                 })();
             </script>
-
             <a href="https://plus.google.com/hangouts" target="_blank">
-            	<button type="button" class="btn1 btn_connect hangout">Connect to Hangout</button>
+            	<button type="button" class="btn btn_connect hangout">Connect to Hangout</button>
             </a>
 		</div>
 		<div id="my_tools" class="right">

@@ -1,0 +1,5 @@
+C:\Users\Randy-Cofie\Documents\Visual Studio 2012\Projects\GNWBLE\LoginWithGoogle\bin\LoginWithGoogle.dll
+C:\Users\Randy-Cofie\Documents\Visual Studio 2012\Projects\GNWBLE\LoginWithGoogle\bin\LoginWithGoogle.pdb
+C:\Users\Randy-Cofie\Documents\Visual Studio 2012\Projects\GNWBLE\LoginWithGoogle\obj\Debug\LoginWithGoogle.csprojResolveAssemblyReference.cache
+C:\Users\Randy-Cofie\Documents\Visual Studio 2012\Projects\GNWBLE\LoginWithGoogle\obj\Debug\LoginWithGoogle.dll
+C:\Users\Randy-Cofie\Documents\Visual Studio 2012\Projects\GNWBLE\LoginWithGoogle\obj\Debug\LoginWithGoogle.pdb

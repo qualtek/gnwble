@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\login.aspx" />
+    <Content Include="Account\loginAlt.aspx" />
     <Content Include="course.aspx" />
     <Content Include="css\accordion.css" />
     <Content Include="css\calendarview.css" />
@@ -253,7 +254,9 @@
     <Content Include="js\themes\grid.js" />
     <Content Include="js\themes\skies.js" />
     <Content Include="lesson_viewer_text.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account\login.aspx.cs">
@@ -262,6 +265,13 @@
     </Compile>
     <Compile Include="Account\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\loginAlt.aspx.cs">
+      <DependentUpon>loginAlt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\loginAlt.aspx.designer.cs">
+      <DependentUpon>loginAlt.aspx</DependentUpon>
     </Compile>
     <Compile Include="course.aspx.cs">
       <DependentUpon>course.aspx</DependentUpon>
