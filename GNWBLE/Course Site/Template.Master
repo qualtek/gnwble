@@ -5,15 +5,16 @@
 
 <head>
 	<meta charset="utf-8" />
-	<link type="text/css" rel="stylesheet" href="css/style.css">
-	<link type="text/css" rel="stylesheet" href="css/typography.css">
-	<link type="text/css" rel="stylesheet" href="css/SearchBoxTins.css">
-	<link rel="stylesheet" href="css/calendarview.css">
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link type="text/css" rel="stylesheet" href="css/typography.css" />
+	<link type="text/css" rel="stylesheet" href="css/SearchBoxTins.css" />
+	<link rel="stylesheet" href="css/calendarview.css" />
 	<script src="js/argiepolicarpio.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/application.js" type="text/javascript" charset="utf-8"></script>
         
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css' >
-	<title>Dashboard | GNWBLC</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css' />
+	<title><asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder></title>
+    
 	
 	<!--For PCalendar-->
     <script src="js/prototype.js"></script>

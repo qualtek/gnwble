@@ -1,4 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Template.Master" AutoEventWireup="true" CodeBehind="lesson_viewer_text.aspx.cs" Inherits="Course_Site.lesson_viewer_text" %>
+<asp:Content ID="Content4" ContentPlaceHolderID="title" runat="server">
+    Lesson | GNWBLE
+</asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="scripts" runat="server">
     <link type="text/css" rel="stylesheet" href="css/calendarview.css" />
 </asp:Content>

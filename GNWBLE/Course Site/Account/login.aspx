@@ -10,7 +10,7 @@
     <link type="text/css" rel="stylesheet" href="../css/typography.css" />
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css' />
-    <title>GNWBLE</title>
+    <title>Login | GNWBLE</title>
 </head>
 <body>
     <form id="form1" runat="server">

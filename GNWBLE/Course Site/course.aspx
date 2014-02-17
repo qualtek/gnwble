@@ -1,4 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Template.Master" AutoEventWireup="true" CodeBehind="course.aspx.cs" Inherits="Course_Site.course" %>
+<asp:Content ID="Content4" ContentPlaceHolderID="title" runat="server">
+    Course | GNWBLE
+</asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="scripts" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="calendar_noticeBoard_container" runat="server">
