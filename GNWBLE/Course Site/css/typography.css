@@ -172,7 +172,7 @@ textarea:focus,
 	font-size:13px;
 	color:#fff;
 }
-#table_header2, #main_content_resultTable tbody .record td{
+#table_header2, #main_content_resultTable tbody .record td, #resultTable tbody .record td{
 	font-size:11px;		  
 }
 

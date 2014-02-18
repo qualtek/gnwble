@@ -18,23 +18,56 @@
 	
 }
 
-#logo p {
+#logo p{
 	background: none !important;
 }
 
 #login_container{
     width:600px;
-    margin:110px auto;
+    margin:30px auto 110px auto;
+}
+
+#login_header{
+    width:760px;
+    text-align:center;
+    margin:110px auto 0 auto;
 }
 
 .login{
-	width:300px;
+	width:248.5px;
 	min-height:500px;
-	
+    padding:20px 25px;
+}
+
+.login.right{
+    padding:85px 0;
+}
+
+h6
+{
+    font-size:13px;
+    color:#19C1EB;
+    padding:0 0 10px 0 !important;
+}
+
+#login_header p
+{
+    margin:0;
+    padding:0;
+}
+
+.login, #login_header
+{
+    font-size:11px;
 }
 
 h5{
 	text-align:left;
+}
+
+.small_text{
+    margin: 70px 0 0 0;
+    font-size:9px;
 }
 
 label{

@@ -18,13 +18,18 @@
 		<img alt="GN Logo" src="../images/gnlogo.jpg" />
 		<p>Web based learning<br/><span>environment</span></p>
 	</div>
+    <div id="login_header">
+        <h6>Sign in with Google+</h6>
+        <p>Welcome to the Groupe Nduom Web based learning environment.</p>
+    </div>
     <div id="login_container">
-        <div class="login left">
-            <p></p>
-
+        <div class="login left small_text">
+            To sign in, click on the button to the right and enter the username and password you use to login to your Groupe Nduom email account.
+            <br /><br /> By logging in with Google, you are giving us access to your Google profile. This helps us create a customized environment for you.
         </div>
+        <img class="login_divider" src="../images/login_divider.png" alt="divider" />
 	    <div class="login right">
-		    <h5>Login</h5>
+            <img src="" alt="Google Login image" />
 		    <div id="gSignInWrapper">
                 <div id="customBtn" class="customGPlusSignIn">
                     <span class="icon"></span>

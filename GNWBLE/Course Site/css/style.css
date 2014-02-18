@@ -159,7 +159,6 @@ h2{
 #mainContent{
 	padding:20px 0;
 	min-height: 500px;
-    overflow:hidden;
 }
 
 .float_tag{
@@ -211,7 +210,7 @@ h2{
 	margin-right:55px;
 }
 
-.bar, #pie_chart, #calendar_note, #mailbox, #my_tools, #main_content_resultTable, #tool_list, #reminder{
+.bar, #pie_chart, #calendar_note, #mailbox, #my_tools, #main_content_resultTable, #resultTable, #tool_list, #reminder{
 	margin-bottom:45px;
 }
 
@@ -380,11 +379,11 @@ button.btn1
 	height: 50px;
 	line-height:50px;
 	text-decoration:none;
-	padding: 17px 172px 17px 50px;
+	padding: 17px 160px 17px 50px;
 }
 
 #tool_list #l a{
-	padding: 17px 61px 17px 50px;
+	padding: 17px 61px 17px 50px !important;
 }
 
 #tool_list .blt{
@@ -423,7 +422,7 @@ button.btn1
 	background-color:#eee;
 }
 
-#main_content_resultTable {
+#main_content_resultTable, #resultTable {
 	width: 700px;
 }
 
@@ -456,25 +455,25 @@ th img{
 	text-align: right !important;
 	padding-right:10px !important;
 }
-#main_content_resultTable tbody .record td{
+#main_content_resultTable tbody .record td, #resultTable tbody .record td{
 	border-bottom:solid #307785 1px;
 	text-align:left;
 }
 
-#main_content_resultTable tbody tr:last-child td{
+#main_content_resultTable tbody tr:last-child td, #resultTable tbody tr:last-child td{
 	border-bottom:none;
 }
 
-#main_content_resultTable th.sortable {
+#main_content_resultTable th.sortable, #resultTable th.sortable{
 	color: #fff;
 	letter-spacing: 2px;
 	padding: 10px 6px;
 	text-align: left;
 	text-transform: uppercase;
 	cursor: pointer;
-	text-decoration: none;isi
+	text-decoration: none;
 }
-#main_content_resultTable th {
+#main_content_resultTable th, #resultTable th {
 	color: #FFF;
 	letter-spacing: 2px;
 	padding: 3px 3px 3px 6px;
@@ -485,19 +484,19 @@ th img{
 	text-decoration: none;
 }
 
-#main_content_resultTable td {
+#main_content_resultTable td, #resultTable td {
 	padding: 6px;
 }
 
-#main_content_resultTable td.odd {
+#main_content_resultTable td.odd, #resultTable td.odd {
 	
 }
 
-#main_content_resultTable .dashboard td.hovered {
+#main_content_resultTable .dashboard td.hovered, #resultTable .dashboard td.hovered{
 	background-color: #2b2b2b;
 }
 
-#main_content_resultTable td.hovered{
+#main_content_resultTable td.hovered, #resultTable td.hovered{
 	cursor:pointer;
 	color: #FFF;
 }
