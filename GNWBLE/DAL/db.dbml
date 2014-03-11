@@ -36,19 +36,6 @@
       <Association Name="role_staff" Member="staffs" ThisKey="id" OtherKey="role_id" Type="staff" />
     </Type>
   </Table>
-  <Table Name="dbo.staff" Member="staffs">
-    <Type Name="staff">
-      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="first_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="last_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="role_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="department_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Association Name="staff_test_result" Member="test_results" ThisKey="id" OtherKey="staff_id" Type="test_result" />
-      <Association Name="staff_staff_assigned_course" Member="staff_assigned_courses" ThisKey="id" OtherKey="staff_id" Type="staff_assigned_course" />
-      <Association Name="role_staff" Member="role" ThisKey="role_id" OtherKey="id" Type="role" IsForeignKey="true" />
-      <Association Name="department_staff" Member="department" ThisKey="department_id" OtherKey="id" Type="department" IsForeignKey="true" />
-    </Type>
-  </Table>
   <Table Name="dbo.company" Member="companies">
     <Type Name="company">
       <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -120,9 +107,9 @@
       <Column Name="assigned_course_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="percent_completed" Type="System.Double" DbType="Float" CanBeNull="true" />
       <Column Name="completion_status_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Association Name="staff_staff_assigned_course" Member="staff" ThisKey="staff_id" OtherKey="id" Type="staff" IsForeignKey="true" />
       <Association Name="assigned_course_staff_assigned_course" Member="assigned_course" ThisKey="assigned_course_id" OtherKey="id" Type="assigned_course" IsForeignKey="true" />
       <Association Name="completion_status_staff_assigned_course" Member="completion_status" ThisKey="completion_status_id" OtherKey="id" Type="completion_status" IsForeignKey="true" />
+      <Association Name="staff_staff_assigned_course" Member="staff" ThisKey="staff_id" OtherKey="id" Type="staff" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.fd_ua_nums" Member="fd_ua_nums">
@@ -130,6 +117,20 @@
       <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
       <Column Name="ua" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
       <Column Name="full_name" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.staff" Member="staffs">
+    <Type Name="staff">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="first_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="last_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="role_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="department_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="email_address" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="staff_staff_assigned_course" Member="staff_assigned_courses" ThisKey="id" OtherKey="staff_id" Type="staff_assigned_course" />
+      <Association Name="staff_test_result" Member="test_results" ThisKey="id" OtherKey="staff_id" Type="test_result" />
+      <Association Name="role_staff" Member="role" ThisKey="role_id" OtherKey="id" Type="role" IsForeignKey="true" />
+      <Association Name="department_staff" Member="department" ThisKey="department_id" OtherKey="id" Type="department" IsForeignKey="true" />
     </Type>
   </Table>
 </Database>

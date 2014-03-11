@@ -4,3 +4,8 @@ C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\DAL\bin\Debug\
 C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\DAL\obj\Debug\DAL.dll
 C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\DAL\obj\Debug\DAL.pdb
+C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\DAL\bin\Debug\DAL.dll.config
+C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\DAL\bin\Debug\DAL.dll
+C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\DAL\bin\Debug\DAL.pdb
+C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\DAL\obj\Debug\DAL.dll
+C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\DAL\obj\Debug\DAL.pdb

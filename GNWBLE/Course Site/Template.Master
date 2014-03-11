@@ -32,6 +32,20 @@
 
         Event.observe(window, 'load', function () { setupCalendars() })
     </script>
+    <script type="text/javascript">
+        (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/client:plusone.js?onload=render';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+
+        function sign_out() {
+            gapi.auth.signOut();
+            window.location.replace("http://localhost:4643/Account/login.aspx");
+        }
+    </script>
     <asp:ContentPlaceHolder ID="scripts" runat="server">
 
     </asp:ContentPlaceHolder>
@@ -55,51 +69,79 @@
 	        customSearchControl.draw('cse', options);
 	    }, true);
 	</script>
-	<div id="top_bg">
-		<div id="header">
-			<div id="logo">
-				<img alt="GN Logo" src="images/logo.png">
-				<p>Web based learning<br><span>environment</span></p>
-			</div>
-			<ul id="top_nav">
-				<li><a href="">Account Settings</a></li>
-				<li><a href="">Sign out</a></li>
-				<li><a href="">Help</a></li>
-			</ul>
-			<h2>my workstation</h2>
-			<div id="calendar">
-				<asp:ContentPlaceHolder ID="calendar_noticeBoard_container" runat="server">
 
-				</asp:ContentPlaceHolder>
-			</div>
-			<nav>
-				<ul id="navBar">
-					<li class="active"><a href="default.html">Dashboard</a></li>
-					<li><a href="course.aspx">Courses</a></li>
-					<li><a href="library.html">Library</a></li>
-					<li><a href="achievements.html">Achievements</a></li>
-					<li><a href="chat.html">Chat</a></li>
-					<li><a href="reminder.html">Reminders</a></li>
-					<li><div id='cse' style='width: 100%;'>Loading...</div></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
- 	<center><img src="images/shadow.png" alt="shadow" /></center>
-    <form runat="server">
+    <form id="Form1" runat="server">
+	    <div id="top_bg">
+            <span id="signinButton" style="display:none;">
+              <span class="g-signin"
+                data-callback="loginFinishedCallback"
+                data-clientid="764368009982-jn348rmjcj2qvsfrmf7jm0223kq6ilih.apps.googleusercontent.com"
+                data-scope="https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/plus.profile.emails.read"
+                data-height="tall"
+                data-cookiepolicy="single_host_origin">
+              </span>
+            </span>
+            <script type="text/javascript">
+                function sign_out() {
+                    /*
+                    * Triggered when the user accepts the sign in, cancels, or closes the
+                    * authorization dialog.
+                    */
+                    function loginFinishedCallback(authResult) {
+                        alert(authResult);
+
+                        if (authResult) {
+                            if (authResult['error'] == user_signed_out) {
+                                gapi.auth.signOut();
+                            } else {
+                                alert("An error occurred: " + authResult['error']);
+                                console.log('An error occurred');
+                            }
+                        } else {
+                            alert("Empty authResult: " + authResult['error']);
+                            console.log('Empty authResult');  // Something went wrong
+                        }
+                    }
+                }
+            </script>
+		    <div id="header">
+			    <div id="logo">
+				    <img alt="GN Logo" src="images/logo.png" />
+				    <p>Web based learning<br/><span>environment</span></p>
+			    </div>
+			    <ul id="top_nav">
+				    <li><a href="#">Account Settings</a></li>
+				    <li><asp:LinkButton ID="btnSignout" runat="server" OnClientClick="sign_out(); return false;">Sign out</asp:LinkButton></li>
+				    <li><a href="help.aspx">Help</a></li>
+			    </ul>
+			    <h2>my workstation</h2>
+			    <div id="calendar">
+				    <asp:ContentPlaceHolder ID="calendar_noticeBoard_container" runat="server">
+
+				    </asp:ContentPlaceHolder>
+			    </div>
+                <nav>
+				    <ul id="navBar">
+					    <asp:ContentPlaceHolder ID="main_nav_bar" runat="server">
+                        </asp:ContentPlaceHolder>
+				    </ul>
+			    </nav>
+		    </div>
+	    </div>
+ 	    <center><img src="images/shadow.png" alt="shadow" /></center>
         <asp:ContentPlaceHolder ID="main_content" runat="server">
 
         </asp:ContentPlaceHolder>
+        <div id="footer">
+ 		    <div class="divider"></div>
+    	    <ul id="footer_links">
+            </ul>
+	        <div id="footer_copyright">
+			    <span id="c1">&copy; 2014 GROUPE NDUOM WEB BASED LEARNING ENVIRONMENT. ALL RIGHTS RESERVED.</span>
+	            <span id="c2">DESIGNED AND DEVELOPED BY QUALTEK GHANA.</span>
+	        </div>
+ 	    </div>
     </form>
-    <div id="footer">
- 		<div class="divider"></div>
-    	<ul id="footer_links">
-        </ul>
-	    <div id="footer_copyright">
-			<span id="c1">&copy; 2013 AMANSAM TELEVISION. ALL RIGHTS RESERVED.</span>
-	        <span id="c2">DESIGNED AND DEVELOPED BY QUALTEK GHANA.</span>
-	    </div>
- 	</div>
 </body>
 
 </html>

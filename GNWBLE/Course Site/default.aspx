@@ -143,14 +143,25 @@
         </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="calendar_noticeBoard_container" runat="server">
+    <div>
+
+    </div>
     <div class="nb">GN Notice Board</div>
 	<ul class="nb_board">
 		<li>No posts.</li>
 	</ul>
 </asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="main_nav_bar" runat="server">
+    <li class="active"><a href="default.html">Dashboard</a></li>
+	<li><a href="course.aspx">Courses</a></li>
+	<li><a href="library.aspx">Library</a></li>
+	<li><a href="results.aspx">Achievements</a></li>
+	<li><a href="reminder.aspx">Reminders</a></li>
+	<li><div id='cse' style='width: 100%;'>Loading...</div></li>
+</asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="main_content" runat="server">
     <div id="mainContent"> 
-    <div class="bar box left">
+        <div class="bar box left">
 			<div id="container">
 			</div>
 		</div>

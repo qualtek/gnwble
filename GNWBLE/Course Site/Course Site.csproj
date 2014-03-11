@@ -202,9 +202,11 @@
     <Content Include="graphics\skies.jpg" />
     <Content Include="graphics\snow.png" />
     <Content Include="graphics\sun.png" />
+    <Content Include="help.aspx" />
     <Content Include="images\bullet.png" />
     <Content Include="images\divider_line.png" />
     <Content Include="images\gnlogo.jpg" />
+    <Content Include="images\login_divider.png" />
     <Content Include="images\login_logo.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\menu-icon.png" />
@@ -254,6 +256,11 @@
     <Content Include="js\themes\grid.js" />
     <Content Include="js\themes\skies.js" />
     <Content Include="lesson_viewer_text.aspx" />
+    <Content Include="library.aspx" />
+    <Content Include="results.aspx" />
+    <Content Include="test.aspx" />
+    <Content Include="test_instructions.aspx" />
+    <Content Include="test_results.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -287,6 +294,13 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="help.aspx.cs">
+      <DependentUpon>help.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="help.aspx.designer.cs">
+      <DependentUpon>help.aspx</DependentUpon>
+    </Compile>
     <Compile Include="lesson_viewer_text.aspx.cs">
       <DependentUpon>lesson_viewer_text.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -294,13 +308,48 @@
     <Compile Include="lesson_viewer_text.aspx.designer.cs">
       <DependentUpon>lesson_viewer_text.aspx</DependentUpon>
     </Compile>
+    <Compile Include="library.aspx.cs">
+      <DependentUpon>library.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="library.aspx.designer.cs">
+      <DependentUpon>library.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="results.aspx.cs">
+      <DependentUpon>results.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="results.aspx.designer.cs">
+      <DependentUpon>results.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Template.Master.cs">
       <DependentUpon>Template.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Template.Master.designer.cs">
       <DependentUpon>Template.Master</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test_instructions.aspx.cs">
+      <DependentUpon>test_instructions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test_instructions.aspx.designer.cs">
+      <DependentUpon>test_instructions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test_results.aspx.cs">
+      <DependentUpon>test_results.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test_results.aspx.designer.cs">
+      <DependentUpon>test_results.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

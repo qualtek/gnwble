@@ -93,6 +93,16 @@ namespace DAL
             context.fd_ua_nums.InsertOnSubmit(f);
             context.SubmitChanges();
         }
+
+        public staff GetUserRoleByEmailAddress(string email)
+        {
+            return context.staffs.Where(x => x.email_address == email).FirstOrDefault();
+        }
+
+        public List<role> GetUserRoles()
+        {
+            return new List<role>(context.roles.AsEnumerable());
+        }
     }
 
     public class CourseList

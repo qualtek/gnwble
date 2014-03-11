@@ -31,6 +31,24 @@ namespace Course_Site {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder scripts;
         
         /// <summary>
+        /// Form1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
+        
+        /// <summary>
+        /// btnSignout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton btnSignout;
+        
+        /// <summary>
         /// calendar_noticeBoard_container control.
         /// </summary>
         /// <remarks>
@@ -38,6 +56,15 @@ namespace Course_Site {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder calendar_noticeBoard_container;
+        
+        /// <summary>
+        /// main_nav_bar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder main_nav_bar;
         
         /// <summary>
         /// main_content control.

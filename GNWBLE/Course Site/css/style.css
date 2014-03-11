@@ -145,8 +145,7 @@
 }
 
 #calendar{
-	width:250px;
-	hei/ght:170px;
+	width:283px;
 	position:absolute;
 	top:50px;
 	right:0;
@@ -157,7 +156,7 @@ h2{
 }
 
 #mainContent{
-	padding:20px 0;
+	padding:90px 0;
 	min-height: 500px;
 }
 
@@ -515,8 +514,8 @@ th img{
 
 .nb_board{
 	background-color: #073636;
-	width: 230px;
-	height: 170px;
+	width: 263px;
+	height: 90px;
 	padding:15px 10px;
 	color:#eee !important;
 }
