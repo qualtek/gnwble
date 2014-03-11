@@ -18,7 +18,10 @@
 	<li><div id='cse' style='width: 100%;'>Loading...</div></li>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="main_content" runat="server">
-    <div id="mainContent">
-
+    <div id="mainContent"</div>
+    
+    <div id="placeholder" align="center" style=" z-index:5500; position:absolute; background-color:#005555; width:1050px; height:230px; bottom:0px;  left:120px; overflow:hidden; visibility:visible;" >          
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TEST COMPLETE......</br> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You answered 14 out of 15 questions correctly and your grade is 93.3%</br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You Passed</br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Well Done</br></div> </div>
+         
     </div>
 </asp:Content>

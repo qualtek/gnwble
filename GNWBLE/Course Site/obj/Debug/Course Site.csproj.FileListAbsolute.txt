@@ -12,3 +12,10 @@ C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\Course Site\bin\DAL.pdb
 C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\Course Site\obj\Debug\Course Site.csprojResolveAssemblyReference.cache
 C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\Course Site\obj\Debug\Course Site.dll
 C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\Course Site\obj\Debug\Course Site.pdb
+C:\Users\user\Documents\GitHub\gnwble\GNWBLE\Course Site\bin\Course Site.dll
+C:\Users\user\Documents\GitHub\gnwble\GNWBLE\Course Site\bin\Course Site.pdb
+C:\Users\user\Documents\GitHub\gnwble\GNWBLE\Course Site\bin\DAL.dll
+C:\Users\user\Documents\GitHub\gnwble\GNWBLE\Course Site\bin\DAL.pdb
+C:\Users\user\Documents\GitHub\gnwble\GNWBLE\Course Site\obj\Debug\Course Site.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\gnwble\GNWBLE\Course Site\obj\Debug\Course Site.dll
+C:\Users\user\Documents\GitHub\gnwble\GNWBLE\Course Site\obj\Debug\Course Site.pdb
