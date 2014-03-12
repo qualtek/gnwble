@@ -19,6 +19,11 @@
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="main_content" runat="server">
     <div id="mainContent">
-
+        <div id="placeholder" align="center" style=" z-index:5500; position:absolute; background-color:#005555; width:1050px; height:230px; bottom:0px;  left:120px; overflow:hidden; visibility:visible;" >          
+            TEST COMPLETE......<br/>
+            You answered 14 out of 15 questions correctly and your grade is 93.3%<br/>
+            You Passed<br/>
+            Well Done<br/>
+        </div>
     </div>
 </asp:Content>
