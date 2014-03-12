@@ -698,4 +698,160 @@ th img{
 	margin-right:100px;
 }
 
+/*Result Page*/
+#buttonContainer{
+	width:180px;
+	height:194px;
+	float:left;
+}
+
+.btn {
+	width: 150px;
+	height: 60px;
+	cur/sor:pointer;
+	text-align:left;
+	padding: 15px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.btn_courses.completed {
+	color: #ffffff;
+	background: #005555;
+	border: 1px solid #338D8D;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	margin-bottom: 10px;
+}
+.btn_courses.assigned {
+	color: #ffffff;
+	background: #338D8D;
+	border: 1px solid #005555;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	margin-bottom: 10px;
+}
+/*
+.btn_connect.hangout:hover {
+	background: #005555;
+	border: 1px solid #338D8D;
+}
+*/
+
+#pieChart{
+	width: 310px;
+	height: 200px;
+	background-color:#005555; 
+	margin: 30px 0;
+	float:right;
+}
+
+.bar2{
+	width:850px;
+	height:194px;
+	background-color: #005555;
+}
+
+#container2{
+	width:100%;
+	height:194px;
+}
+
+#best_worst_course{
+	width:700px;
+	height:200px;
+	ba/ckground-color:#999;
+	float:left;
+	margin: 30px 0 0 0;
+}
+
+.course{
+	width:330px;
+	height:200px;
+	background-color:#005555;
+	float:left;
+}
+
+.worst.course{	
+	margin-left:40px;
+}
+
+.course h4{
+	line-height:0;
+	padding: 20px 0 10px 10px;
+	margin:0;
+}
+
+.course hr{
+	margin:0 10px 0 10px;
+}
+
+.course_tbl{
+	margin:10px 10px 0 10px;
+	width:310px;
+	height:150px;
+	text-align:left;
+}
+
+.course_tbl th{
+	border-bottom:3px solid #eeeeee;
+}
+
+/*Test Instruction Page*/
+.instruct_wrapper{
+	width:100%;
+	he/ight:300px;
+	bac/kground-color:#FFF;
+}
+
+.instruct{
+	width:100%;
+	background-color:#338D8D;
+	padding:10px 30px 30px 30px;
+}
+
+.instruct_2{
+	width:100%;
+	background-color:#338D8D;
+	padding:10px 30px 30px 30px;
+}
+
+.test_start{
+	width:13%;
+	height:50px;
+	margin-top:10px;
+	margin-left:43.5%;
+	background-color:#005555;
+	border-color:#005555;
+	color:#FFF;
+}
+
+.test_start:hover{
+	background-color:#006262;
+	cursor:pointer;
+}
+
+.intruct_list{
+	line-height:35px;
+	width:70%;
+}
+
+.instruct_hider{
+	width:50px;
+	height:30px;
+	background-color:#005555;
+	border-color:#005555;
+	color:#FFF;
+	float:right;
+}
+
+.instruct_tab{
+	width:110px;
+	height:25px;
+	background-color:#000;
+	margin-bottom:5px;
+	padding:2px 10px 2px 10px;
+}
+
+.instruct_tab img{
+	margin-left:10px;
+}
+
 

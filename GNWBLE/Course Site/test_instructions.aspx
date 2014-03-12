@@ -22,5 +22,19 @@
         <h4>
             <asp:Literal ID="ltlCourseTitle" runat="server"></asp:Literal>
         </h4>
+        <div class="instruct_wrapper">
+            <div class="instruct">
+                <h3><u>INSTRUCTIONS</u></h3>
+                <ul class="intruct_list">
+                	<li>1. This test will last for 20 minutes.</li>
+                    <li>2. You have 20 seconds to answer each question.</li>
+                    <li>3. You cannot go back to answer a question once it times out.</li>
+                    <li>4. Read each question carefully before answering.</li>
+                </ul>
+            </div>
+            <a href="">
+                <asp:Button ID="btnStartTest" CssClass="test_start" runat="server" Text="Start Test" />
+            </a>
+        </div>
     </div>
 </asp:Content>
