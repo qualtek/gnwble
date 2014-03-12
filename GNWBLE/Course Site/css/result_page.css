@@ -1,0 +1,87 @@
+﻿#buttonContainer{
+	width:180px;
+	height:194px;
+	float:left;
+}
+
+.btn {
+	width: 150px;
+	height: 60px;
+	text-align:left;
+	padding: 15px;
+}
+
+.btn_courses.completed {
+	color: #ffffff;
+	background: #005555;
+	border: 1px solid #338D8D;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	margin-bottom: 10px;
+}
+
+.btn_courses.assigned {
+	color: #ffffff;
+	background: #338D8D;
+	border: 1px solid #005555;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	margin-bottom: 10px;
+}
+
+#pieChart{
+	width: 310px;
+	height: 200px;
+	background-color:#005555; 
+	margin: 30px 0;
+	float:right;
+}
+
+.bar2{
+	width:850px;
+	height:194px;
+	background-color: #005555;
+}
+
+#container2{
+	width:100%;
+	height:194px;
+}
+
+#best_worst_course{
+	width:700px;
+	height:200px;
+	float:left;
+	margin: 30px 0 0 0;
+}
+
+.course{
+	width:330px;
+	height:200px;
+	background-color:#005555;
+	float:left;
+}
+
+.worst.course{	
+	margin-left:40px;
+}
+
+.course h4{
+	line-height:0;
+	padding: 20px 0 10px 10px;
+	margin:0;
+}
+
+.course hr{
+	margin:0 10px 0 10px;
+}
+
+.course_tbl{
+	margin:10px 10px 0 10px;
+	width:310px;
+	height:150px;
+	text-align:left;
+}
+
+.course_tbl th{
+	border-bottom:3px solid #eeeeee;
+}
+

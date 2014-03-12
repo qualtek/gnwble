@@ -63,7 +63,11 @@
     <Content Include="css\accordion.css" />
     <Content Include="css\calendarview.css" />
     <Content Include="css\courses_table.css" />
+    <Content Include="css\datatable\demo_page.css" />
+    <Content Include="css\datatable\demo_table_jui.css" />
+    <Content Include="css\datatable\jquery-ui-1.8.4.custom.css" />
     <Content Include="css\login.css" />
+    <Content Include="css\result_page.css" />
     <Content Include="css\SearchBoxTins.css" />
     <Content Include="css\SearchCodes.txt" />
     <Content Include="css\style.css" />
@@ -222,6 +226,8 @@
     <Content Include="js\argiepolicarpio.js" />
     <Content Include="js\calendarview.js" />
     <Content Include="js\checkbox.js" />
+    <Content Include="js\datatable\jquery.dataTables.js" />
+    <Content Include="js\datatable\jquery.js" />
     <Content Include="js\highcharts-all.js" />
     <Content Include="js\highcharts-more.js" />
     <Content Include="js\highcharts-more.src.js" />

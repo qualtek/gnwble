@@ -88,11 +88,11 @@ namespace DAL
             return new List<staff_assigned_course>(context.staff_assigned_courses.Where(x => x.staff_id == staff_id).AsEnumerable());
         }
 
-        public void AddUANumber(fd_ua_num f)
+        /*public void AddUANumber(fd_ua_num f)
         {
             context.fd_ua_nums.InsertOnSubmit(f);
             context.SubmitChanges();
-        }
+        }*/
 
         public staff GetUserRoleByEmailAddress(string email)
         {
