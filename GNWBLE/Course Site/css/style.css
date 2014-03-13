@@ -854,4 +854,19 @@ th img{
 	margin-left:10px;
 }
 
+/*Library Page*/
+#file_view {
+    background-color: #338d8d;
+    float:right;
+    width:720px;
+    min-height:500px;
+    padding:7px 10px 3px 10px;
+}
+
+#file_view_title {
+    background-color: #005555;
+    height:20px;
+    padding:5px 5px 0 5px;
+}
+
 
