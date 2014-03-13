@@ -19,6 +19,81 @@
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="main_content" runat="server">
     <div id="mainContent">
-
+        <div id="tree">
+    	    <h5>Modules</h5>
+		    <ul>
+			    <li class="folder">Microsoft Office Suite
+				    <ul>
+					    <li data="addClass:'custom2'">Microsoft Word
+                    	    <ul>
+							    <li data="addClass:'custom1'">Lesson 1</li>
+							    <li data="addClass:'custom1'">Lesson 2</li>
+						    </ul>
+                        </li>
+					    <li data="addClass:'custom2'">Microsoft Excel
+                    	    <ul>
+							    <li data="addClass:'custom1'">Lesson 1</li>
+							    <li data="addClass:'custom1'">Lesson 2</li>
+						    </ul>
+                        </li>
+                        <li data="addClass:'custom2'">Microsoft Powerpoint
+                    	    <ul>
+							    <li data="addClass:'custom1'">Lesson 1</li>
+							    <li data="addClass:'custom1'">Lesson 2</li>
+						    </ul>
+                        </li>
+				    </ul>
+                 </li>
+                 <li class="folder">Microsoft Office Suite
+				    <ul>
+					    <li data="addClass:'custom2'">Microsoft Word
+                    	    <ul>
+							    <li data="addClass:'custom1'">Lesson 1</li>
+							    <li data="addClass:'custom1'">Lesson 2</li>
+						    </ul>
+                        </li>
+					    <li data="addClass:'custom2'">Microsoft Excel
+                    	    <ul>
+							    <li data="addClass:'custom1'">Lesson 1</li>
+							    <li data="addClass:'custom1'">Lesson 2</li>
+						    </ul>
+                        </li>
+                        <li data="addClass:'custom2'">Microsoft Powerpoint
+                    	    <ul>
+							    <li data="addClass:'custom1'">Lesson 1</li>
+							    <li data="addClass:'custom1'">Lesson 2</li>
+						    </ul>
+                        </li>
+				    </ul>
+                 </li>
+                 <li class="folder">Microsoft Office Suite
+				    <ul>
+					    <li data="addClass:'custom2'">Microsoft Word
+                    	    <ul>
+							    <li data="addClass:'custom1'">Lesson 1</li>
+							    <li data="addClass:'custom1'">Lesson 2</li>
+						    </ul>
+                        </li>
+					    <li data="addClass:'custom2'">Microsoft Excel
+                    	    <ul>
+							    <li data="addClass:'custom1'">Lesson 1</li>
+							    <li data="addClass:'custom1'">Lesson 2</li>
+						    </ul>
+                        </li>
+                        <li data="addClass:'custom2'">Microsoft Powerpoint
+                    	    <ul>
+							    <li data="addClass:'custom1'">Lesson 1</li>
+							    <li data="addClass:'custom1'">Lesson 2</li>
+						    </ul>
+                        </li>
+				    </ul>
+                 </li>
+		    </ul>
+	    </div>
+        <div id="file_view">
+            <div id="file_view_title">
+                <h6>Microsoft Office Suite / Microsoft Word / Lesson 1</h6>
+            </div>
+        </div>
     </div>
 </asp:Content>
