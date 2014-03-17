@@ -855,18 +855,75 @@ th img{
 }
 
 /*Library Page*/
+#tree{
+	width:280px;
+	background-color:#338D8D !important;
+	padding-bottom:5px;
+	border-radius:2px;
+    float:left;
+    margin-top:25px;
+    clear:both;
+}
+
+#tree h5{
+	color:#FFF;
+	padding:5px 0 0 0;
+	margin:0;
+	text-align:center;
+	font-size:15px;
+}
+
 #file_view {
     background-color: #338d8d;
     float:right;
     width:720px;
     min-height:500px;
     padding:7px 10px 3px 10px;
+    margin-top:25px;
 }
 
 #file_view_title {
     background-color: #005555;
     height:20px;
     padding:5px 5px 0 5px;
+    margin-bottom:10px;
 }
 
+#a-z_wrapper{
+	background-color:#338D8D;
+	width:960px;
+	height:20px;
+	padding-bottom:4px;
+    margin: 0 auto;
+}
 
+#a-z_menu{
+	width:810px;
+	height:100%;
+	padding:2px;
+	float:right;
+}
+
+.btmenu{
+	width:3%;
+	height:100%;
+	text-align:center;
+	padding:1px;
+    color:#000;
+    font-size:12px;
+}
+
+#a-z_title{
+	color:#FFF;
+	float:left;
+	width:140px;
+	height:100%;
+	font-size:12px;
+	text-align:center;
+	back/ground-color:#9FF;
+	padding:3px 2px 2px 2px;
+}
+
+.all_menu{
+	width:5%;
+}
