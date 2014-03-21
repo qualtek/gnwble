@@ -255,6 +255,7 @@
     <Content Include="js\modules\map.src.js" />
     <Content Include="js\modules\no-data-to-display.js" />
     <Content Include="js\modules\no-data-to-display.src.js" />
+    <Content Include="js\pdfObject.js" />
     <Content Include="js\prototype.js" />
     <Content Include="js\themes\dark-blue.js" />
     <Content Include="js\themes\dark-green.js" />
@@ -487,6 +488,19 @@
     <Content Include="exporting-server\java\highcharts-export\highcharts-export-web\src\main\webapp\WEB-INF\spring\app-convert.properties" />
     <Content Include="exporting-server\phantomjs\readme.md" />
     <Content Include="exporting-server\php\php-batik\index.php" />
+    <Content Include="lesson\Lesson 1 - Excel Tutorial.pdf" />
+    <Content Include="lesson\Lesson 1 - Power Point Tutorial.pdf" />
+    <Content Include="lesson\Lesson 2 - Excel Tutorial.pdf" />
+    <Content Include="lesson\Lesson 2 - Power Point Tutorial.pdf" />
+    <Content Include="lesson\Lesson 2 - Word Tutorial.pdf" />
+    <Content Include="lesson\Lesson 3 - Excel Tutorial.pdf" />
+    <Content Include="lesson\Lesson 3 - Power Point Tutorial.pdf" />
+    <Content Include="lesson\Lesson 3 - Word Tutorial.pdf" />
+    <Content Include="lesson\Lesson 4 - Excel Tutorial.pdf" />
+    <Content Include="lesson\Lesson 4 - Word Tutorial.pdf" />
+    <Content Include="lesson\Lesson 5 - Advance Excel.pdf" />
+    <Content Include="lesson\Lesson 5 - Word Tutorial.pdf" />
+    <Content Include="lesson\Other useful shortcut keys- Excel Tutorial.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

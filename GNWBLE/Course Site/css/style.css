@@ -927,3 +927,7 @@ th img{
 .all_menu{
 	width:5%;
 }
+
+#LessonDisplayDiv {
+    height: 600px;
+}

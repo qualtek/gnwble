@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/calendarview.css" />
 	<script src="js/argiepolicarpio.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/application.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/pdfObject.js" type="text/javascript"></script>
         
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css' />
 	<title><asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder></title>
@@ -71,9 +72,19 @@
                     // Use <a> href and target attributes to load the content:
                     if (node.data.href) {
                         // Open target
-                        window.open(node.data.href, node.data.target);
-                        // or open target in iframe
-                        //                $("[name=contentFrame]").attr("src", node.data.href);
+                        var sourc = node.data.href;
+                        var pdfURL = "lesson/" + sourc;
+                        var params = {
+                            url: pdfURL,
+
+                            pdfOpenParams: {
+                                navpanes: 0,
+                                toolbar: 0,
+                                statusbar: 0
+                            }
+                        };
+
+                        var myPDF = new PDFObject(params).embed("LessonDisplayDiv");
                     }
                 }
             });

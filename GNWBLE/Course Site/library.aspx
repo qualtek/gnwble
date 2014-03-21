@@ -60,20 +60,20 @@
 				    <ul>
 					    <li data="addClass:'custom2'">Microsoft Word
                     	    <ul>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 1 - Word Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 2 - Word Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 1 - Word Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 1 - Excel Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
 						    </ul>
                         </li>
 					    <li data="addClass:'custom2'">Microsoft Excel
                     	    <ul>
-							    <li data="addClass:'custom1'"><a href="http://www.jquery.com/" target="contentFrame">Lesson 1</a></li>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 2 - Excel Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 1 - Excel Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 2 - Excel Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
 						    </ul>
                         </li>
                         <li data="addClass:'custom2'">Microsoft Powerpoint
                     	    <ul>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 1 - Power Point Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 2 - Power Point Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 1 - Power Point Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 2 - Power Point Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
 						    </ul>
                         </li>
 				    </ul>
@@ -82,20 +82,20 @@
 				    <ul>
 					    <li data="addClass:'custom2'">Microsoft Word
                     	    <ul>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 1 - Word Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 2 - Word Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 1 - Word Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 2 - Word Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
 						    </ul>
                         </li>
 					    <li data="addClass:'custom2'">Microsoft Excel
                     	    <ul>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 1 - Excel Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 2 - Excel Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 1 - Excel Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 2 - Excel Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
 						    </ul>
                         </li>
                         <li data="addClass:'custom2'">Microsoft Powerpoint
                     	    <ul>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 1 - Power Point Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 2 - Power Point Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 1 - Power Point Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 2 - Power Point Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
 						    </ul>
                         </li>
 				    </ul>
@@ -104,20 +104,20 @@
 				    <ul>
 					    <li data="addClass:'custom2'">Microsoft Word
                     	    <ul>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 1 - Word Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 2 - Word Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 1 - Word Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 2 - Word Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
 						    </ul>
                         </li>
 					    <li data="addClass:'custom2'">Microsoft Excel
                     	    <ul>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 1 - Excel Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 2 - Excel Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 1 - Excel Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 2 - Excel Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
 						    </ul>
                         </li>
                         <li data="addClass:'custom2'">Microsoft Powerpoint
                     	    <ul>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 1 - Power Point Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
-							    <li data="addClass:'custom1'"><a href="Viewer.js/#../lesson/Lesson 2 - Power Point Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 1 - Power Point Tutorial.pdf" target="contentFrame">Lesson 1</a></li>
+							    <li data="addClass:'custom1'"><a href="Lesson 2 - Power Point Tutorial.pdf" target="contentFrame">Lesson 2</a></li>
 						    </ul>
                         </li>
 				    </ul>
@@ -125,10 +125,17 @@
 		    </ul>
 	    </div>
         <div id="file_view">
+            <!--
             <div id="file_view_title">
                 <h6>Microsoft Office Suite / Microsoft Word / Lesson 1</h6>
             </div>
-            <iframe name="contentFrame" id="viewer" src = "" width='716' height='600' allowfullscreen webkitallowfullscreen></iframe>
+            -->
+            <div id="LessonDisplayDiv">
+                <p>It appears you don't have a PDF plugin for this browser.
+                   No biggie... you can <a href="myfile.pdf">click here to
+                   download the PDF file.</a>
+                </p>
+            </div>
         </div>
     </div>
 </asp:Content>
