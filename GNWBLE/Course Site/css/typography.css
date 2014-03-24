@@ -130,9 +130,26 @@ h5{
 	line-height: 15px;
 	margin: 15px 0;
 }
+
 #lessons_list ul li{
-	font-family:'Times New Roman';
-    color:#000;
+	font-/family:'Times New Roman';
+    color:#fff;
+}
+
+#course_title{
+    font-size:19px;
+}
+
+#lessons_list ul li ul li h6{
+    color: #6adbdb;
+    padding:0;
+}
+
+#lessons_list ul li ul li p{
+    color: #eee;
+    font-size:9px;
+    text-align:left;
+    padding: 5px 0px 20px;
 }
 
 #pie_chart_label{
@@ -255,4 +272,17 @@ input, select, option{
 	border:none;
 }
 
+#lesson_view{
+    font-family: 'Open Sans' !important;
+	font-weight: 300 !important;
+    font-size:13px;
+}
+
+.left a:hover, .right a:hover{
+    text-decoration:underline;
+}
+
+.top li a, .bottom li a{
+    line-height:25px;
+}
 

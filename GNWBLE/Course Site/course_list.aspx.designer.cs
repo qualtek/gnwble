@@ -10,7 +10,7 @@
 namespace Course_Site {
     
     
-    public partial class course {
+    public partial class course_list {
         
         /// <summary>
         /// resultTable control.

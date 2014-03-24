@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Template.Master" AutoEventWireup="true" CodeBehind="course.aspx.cs" Inherits="Course_Site.course" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Template.Master" AutoEventWireup="true" CodeBehind="course_list.aspx.cs" Inherits="Course_Site.course_list" %>
 <asp:Content ID="Content4" ContentPlaceHolderID="title" runat="server">
     Course | GNWBLE
 </asp:Content>
@@ -10,8 +10,8 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="main_nav_bar" runat="server">
-    <li><a href="default.html">Dashboard</a></li>
-	<li class="active"><a href="course.aspx">Courses</a></li>
+    <li><a href="default.aspx">Dashboard</a></li>
+	<li class="active"><a href="course_list.aspx">Courses</a></li>
 	<li><a href="library.aspx">Library</a></li>
 	<li><a href="results.aspx">Achievements</a></li>
 	<li><a href="reminder.aspx">Reminders</a></li>
@@ -75,7 +75,7 @@
  					<tr class="record">
  						<td>
  							<div class="acdn">
-  								<h3><a href="lesson_viewer_text.aspx"><span class="ui-icon ui-icon-newwin"></span> Microsoft Office 2007 Suite</a></h3>
+  								<h3><a href="lesson_viewer.aspx"><span class="ui-icon ui-icon-newwin"></span> Microsoft Office 2007 Suite</a></h3>
   								<div>
     								<p>Mauris mauris ante, blandit et, ultrices a, susceros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
   								</div>
@@ -112,7 +112,7 @@
  					<tr class="record">
  						<td>
  							<div class="acdn">
-  								<h3><a href="lesson_view_text.html">Financial Management</a></h3>
+  								<h3><a href="lesson_view.aspx">Financial Management</a></h3>
   								<div>
     								<p>Mauris mauris ante, blandit et, ultrices a, susceros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
   								</div>
@@ -140,7 +140,7 @@
  					<tr class="record">
  						<td>
  							<div class="acdn">
-  								<h3><a href="lesson_view_text.html">Risk Management</a></h3>
+  								<h3><a href="lesson_view.aspx">Risk Management</a></h3>
   								<div>
     								<p>Mauris mauris ante, blandit et, ultrices a, susceros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
   								</div>
@@ -177,7 +177,7 @@
  					<tr class="record">
  						<td>
  							<div class="acdn">
-  								<h3><a href="lesson_view_text.html">Tax Reliefs, Accessibility, Frequency and Application</a></h3>
+  								<h3><a href="lesson_view.aspx">Tax Reliefs, Accessibility, Frequency and Application</a></h3>
   								<div>
     								<p>Mauris mauris ante, blandit et, ultrices a, susceros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
   								</div>
@@ -214,7 +214,7 @@
 					<tr class="record">
  						<td>
  							<div class="acdn">
-  								<h3><a href="lesson_view_text.html">Insurance</a></h3>
+  								<h3><a href="lesson_view.aspx">Insurance</a></h3>
   								<div>
     								<p>Mauris mauris ante, blandit et, ultrices a, susceros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
   								</div>
@@ -251,7 +251,7 @@
 					<tr class="record">
  						<td>
  							<div class="acdn">
-  								<h3><a href="lesson_view_text.html">Media(Radio and TV)</a></h3>
+  								<h3><a href="lesson_view.aspx">Media(Radio and TV)</a></h3>
   								<div>
     								<p>Mauris mauris ante, blandit et, ultrices a, susceros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
   								</div>
@@ -288,7 +288,7 @@
 					<tr class="record">
  						<td>
  							<div class="acdn">
-  								<h3><a href="lesson_view_text.html">Real Estate/Maintenace/facility Management</a></h3>
+  								<h3><a href="lesson_view.aspx">Real Estate/Maintenace/facility Management</a></h3>
   								<div>
     								<p>Mauris mauris ante, blandit et, ultrices a, susceros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
   								</div>
@@ -325,7 +325,7 @@
 					<tr class="record">
  						<td>
  							<div class="acdn">
-  								<h3><a href="lesson_view_text.html">Hospitality Management</a></h3>
+  								<h3><a href="lesson_view.aspx">Hospitality Management</a></h3>
   								<div>
     								<p>Mauris mauris ante, blandit et, ultrices a, susceros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
   								</div>

@@ -10,8 +10,8 @@
     </div>
 </asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="main_nav_bar" runat="server">
-    <li><a href="default.html">Dashboard</a></li>
-	<li><a href="course.aspx">Courses</a></li>
+    <li><a href="default.aspx">Dashboard</a></li>
+	<li><a href="course_list.aspx">Courses</a></li>
 	<li><a href="library.aspx">Library</a></li>
 	<li><a href="results.aspx">Achievements</a></li>
 	<li><a href="reminder.aspx">Reminders</a></li>

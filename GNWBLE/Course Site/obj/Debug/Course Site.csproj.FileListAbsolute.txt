@@ -1,12 +1,3 @@
-C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\Course Site\bin\Course Site.dll
-C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\Course Site\bin\Course Site.pdb
-C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\Course Site\bin\DAL.dll
-C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\Course Site\bin\DAL.pdb
-C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\Course Site\obj\Debug\Course Site.csprojResolveAssemblyReference.cache
-C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\Course Site\obj\Debug\Course Site.dll
-C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\Course Site\obj\Debug\Course Site.pdb
-<<<<<<< HEAD
-=======
 C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\Course Site\bin\Course Site.dll
 C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\Course Site\bin\Course Site.pdb
 C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\Course Site\bin\DAL.dll
@@ -14,11 +5,3 @@ C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\Course Site\bin\DAL.pdb
 C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\Course Site\obj\Debug\Course Site.csprojResolveAssemblyReference.cache
 C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\Course Site\obj\Debug\Course Site.dll
 C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\Course Site\obj\Debug\Course Site.pdb
-C:\Users\user\Documents\GitHub\gnwble\GNWBLE\Course Site\bin\Course Site.dll
-C:\Users\user\Documents\GitHub\gnwble\GNWBLE\Course Site\bin\Course Site.pdb
-C:\Users\user\Documents\GitHub\gnwble\GNWBLE\Course Site\bin\DAL.dll
-C:\Users\user\Documents\GitHub\gnwble\GNWBLE\Course Site\bin\DAL.pdb
-C:\Users\user\Documents\GitHub\gnwble\GNWBLE\Course Site\obj\Debug\Course Site.csprojResolveAssemblyReference.cache
-C:\Users\user\Documents\GitHub\gnwble\GNWBLE\Course Site\obj\Debug\Course Site.dll
-C:\Users\user\Documents\GitHub\gnwble\GNWBLE\Course Site\obj\Debug\Course Site.pdb
->>>>>>> c0e08ced740cd4b822ed3ad6ebc23d6935019c03

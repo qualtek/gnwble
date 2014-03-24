@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Course_Site
 {
-    public partial class default_1 : System.Web.UI.Page
+    public partial class _default : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -28,7 +28,7 @@ namespace Course_Site
                 }
             }
         }
-        
+
         private class google_user
         {
             public string id { get; set; }

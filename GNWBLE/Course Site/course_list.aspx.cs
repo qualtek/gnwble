@@ -9,7 +9,7 @@ using DAL;
 
 namespace Course_Site
 {
-    public partial class course : System.Web.UI.Page
+    public partial class course_list : System.Web.UI.Page
     {
         DataProvider dp = DataProvider.GetInstance();
         BindingList<CourseList> list = new BindingList<CourseList>();

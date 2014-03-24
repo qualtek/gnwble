@@ -59,7 +59,7 @@
   <ItemGroup>
     <Content Include="Account\login.aspx" />
     <Content Include="Account\loginAlt.aspx" />
-    <Content Include="course.aspx" />
+    <Content Include="course_list.aspx" />
     <Content Include="css\accordion.css" />
     <Content Include="css\calendarview.css" />
     <Content Include="css\courses_table.css" />
@@ -72,6 +72,7 @@
     <Content Include="css\SearchCodes.txt" />
     <Content Include="css\style.css" />
     <Content Include="css\typography.css" />
+    <Content Include="default_2.aspx" />
     <Content Include="default.aspx" />
     <Content Include="exporting-server\java\highcharts-export\highcharts-export-convert\pom.xml" />
     <Content Include="exporting-server\java\highcharts-export\highcharts-export-convert\src\main\java\com\highcharts\export\converter\SVGConverter.java" />
@@ -210,6 +211,7 @@
     <Content Include="images\bullet.png" />
     <Content Include="images\divider_line.png" />
     <Content Include="images\gnlogo.jpg" />
+    <Content Include="images\lesson_sprite.png" />
     <Content Include="images\login_divider.png" />
     <Content Include="images\login_logo.png" />
     <Content Include="images\logo.png" />
@@ -255,13 +257,14 @@
     <Content Include="js\modules\map.src.js" />
     <Content Include="js\modules\no-data-to-display.js" />
     <Content Include="js\modules\no-data-to-display.src.js" />
+    <Content Include="js\pdfObject.js" />
     <Content Include="js\prototype.js" />
     <Content Include="js\themes\dark-blue.js" />
     <Content Include="js\themes\dark-green.js" />
     <Content Include="js\themes\gray.js" />
     <Content Include="js\themes\grid.js" />
     <Content Include="js\themes\skies.js" />
-    <Content Include="lesson_viewer_text.aspx" />
+    <Content Include="lesson_viewer.aspx" />
     <Content Include="library.aspx" />
     <Content Include="results.aspx" />
     <Content Include="test.aspx" />
@@ -286,12 +289,19 @@
     <Compile Include="Account\loginAlt.aspx.designer.cs">
       <DependentUpon>loginAlt.aspx</DependentUpon>
     </Compile>
-    <Compile Include="course.aspx.cs">
-      <DependentUpon>course.aspx</DependentUpon>
+    <Compile Include="course_list.aspx.cs">
+      <DependentUpon>course_list.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="course.aspx.designer.cs">
-      <DependentUpon>course.aspx</DependentUpon>
+    <Compile Include="course_list.aspx.designer.cs">
+      <DependentUpon>course_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default_2.aspx.cs">
+      <DependentUpon>default_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default_2.aspx.designer.cs">
+      <DependentUpon>default_2.aspx</DependentUpon>
     </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
@@ -307,12 +317,12 @@
     <Compile Include="help.aspx.designer.cs">
       <DependentUpon>help.aspx</DependentUpon>
     </Compile>
-    <Compile Include="lesson_viewer_text.aspx.cs">
-      <DependentUpon>lesson_viewer_text.aspx</DependentUpon>
+    <Compile Include="lesson_viewer.aspx.cs">
+      <DependentUpon>lesson_viewer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="lesson_viewer_text.aspx.designer.cs">
-      <DependentUpon>lesson_viewer_text.aspx</DependentUpon>
+    <Compile Include="lesson_viewer.aspx.designer.cs">
+      <DependentUpon>lesson_viewer.aspx</DependentUpon>
     </Compile>
     <Compile Include="library.aspx.cs">
       <DependentUpon>library.aspx</DependentUpon>
@@ -487,6 +497,19 @@
     <Content Include="exporting-server\java\highcharts-export\highcharts-export-web\src\main\webapp\WEB-INF\spring\app-convert.properties" />
     <Content Include="exporting-server\phantomjs\readme.md" />
     <Content Include="exporting-server\php\php-batik\index.php" />
+    <Content Include="lesson\Lesson 1- Excel Tutorial.pdf" />
+    <Content Include="lesson\Lesson 1- Power Piont Tutorial.pdf" />
+    <Content Include="lesson\Lesson 2 - Word Tutorial.pdf" />
+    <Content Include="lesson\Lesson 2- Power Point Tutorial.pdf" />
+    <Content Include="lesson\Lesson 2-Excel Tutorial.pdf" />
+    <Content Include="lesson\Lesson 3 - Power Point Tutorial.pdf" />
+    <Content Include="lesson\Lesson 3 - Word Tutorial.pdf" />
+    <Content Include="lesson\Lesson 3-Excel Tutorial.pdf" />
+    <Content Include="lesson\Lesson 4 - Word Tutorial.pdf" />
+    <Content Include="lesson\Lesson 4-Excel Tutorial.pdf" />
+    <Content Include="lesson\Lesson 5 - Word Tutorial.pdf" />
+    <Content Include="lesson\Lesson 5- Advance Excel.pdf" />
+    <Content Include="lesson\Other useful shortcut keys- Excel Tutorial.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

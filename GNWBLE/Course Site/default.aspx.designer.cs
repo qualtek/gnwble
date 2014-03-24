@@ -10,6 +10,24 @@
 namespace Course_Site {
     
     
-    public partial class _default {
+    public partial class default_1 {
+        
+        /// <summary>
+        /// Form1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
+        
+        /// <summary>
+        /// btnSignout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton btnSignout;
     }
 }

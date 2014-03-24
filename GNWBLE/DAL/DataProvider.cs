@@ -103,6 +103,21 @@ namespace DAL
         {
             return new List<role>(context.roles.AsEnumerable());
         }
+
+        public course GetCourseTitleById(int course_id)
+        {
+            return context.courses.Where(x => x.id == course_id).FirstOrDefault();
+        }
+
+        public List<lesson> ListLessonsByCourseId(int course_id)
+        {
+            return new List<lesson>(context.lessons.Where(x => x.course_id == course_id).AsEnumerable());
+        }
+
+        public course_progress GetCourseProgressByCourseId(int id)
+        {
+            return context.course_progresses.Where(x => x.course_id == id).FirstOrDefault();
+        }
     }
 
     public class CourseList
