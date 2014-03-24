@@ -296,7 +296,7 @@
 	    				    <li class="done"></li>
 	    			    </ul>
 				    </li>
-	    		    <li id="add_new"><span id="new"></span></li>
+	    		    <li id="add_new"><a rel="facebox" href="reminder.aspx"><span id="new"></span></a></li>
 	    	</ul>
 	    </div>
     </div>

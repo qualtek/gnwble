@@ -66,6 +66,7 @@
     <Content Include="css\datatable\demo_page.css" />
     <Content Include="css\datatable\demo_table_jui.css" />
     <Content Include="css\datatable\jquery-ui-1.8.4.custom.css" />
+    <Content Include="css\jquery-ui.css" />
     <Content Include="css\login.css" />
     <Content Include="css\result_page.css" />
     <Content Include="css\SearchBoxTins.css" />
@@ -233,6 +234,9 @@
     <Content Include="js\highcharts-more.src.js" />
     <Content Include="js\highcharts.js" />
     <Content Include="js\highcharts.src.js" />
+    <Content Include="js\jquery-1.8.3.js" />
+    <Content Include="js\jquery-ui-timepicker-addon.js" />
+    <Content Include="js\jquery-ui.js" />
     <Content Include="js\jquery.js" />
     <Content Include="js\jquery.mambo.js" />
     <Content Include="js\jquery.mambo.min.js" />
@@ -264,7 +268,12 @@
     <Content Include="js\themes\skies.js" />
     <Content Include="lesson_viewer_text.aspx" />
     <Content Include="library.aspx" />
+    <Content Include="reminder.aspx" />
     <Content Include="results.aspx" />
+    <Content Include="src\closelabel.png" />
+    <Content Include="src\facebox.css" />
+    <Content Include="src\facebox.js" />
+    <Content Include="src\loading.gif" />
     <Content Include="test.aspx" />
     <Content Include="test_instructions.aspx" />
     <Content Include="test_results.aspx" />
@@ -323,6 +332,13 @@
       <DependentUpon>library.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reminder.aspx.cs">
+      <DependentUpon>reminder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reminder.aspx.designer.cs">
+      <DependentUpon>reminder.aspx</DependentUpon>
+    </Compile>
     <Compile Include="results.aspx.cs">
       <DependentUpon>results.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

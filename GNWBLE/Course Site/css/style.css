@@ -890,15 +890,16 @@ th img{
 }
 
 #a-z_wrapper{
-	background-color:#338D8D;
-	width:960px;
+	background-color:transparent;
+	width:100%;
 	height:20px;
 	padding-bottom:4px;
     margin: 0 auto;
+    border:1px solid #FFF;
 }
 
 #a-z_menu{
-	width:810px;
+	width:860px;
 	height:100%;
 	padding:2px;
 	float:right;
@@ -908,7 +909,7 @@ th img{
 	width:3%;
 	height:100%;
 	text-align:center;
-	padding:1px;
+	padding-bottom:5px;
     color:#000;
     font-size:12px;
 }
@@ -916,12 +917,13 @@ th img{
 #a-z_title{
 	color:#FFF;
 	float:left;
-	width:140px;
+	width:120px;
 	height:100%;
 	font-size:12px;
 	text-align:center;
 	back/ground-color:#9FF;
-	padding:3px 2px 2px 2px;
+	padding:4px 0 0 2px;
+    margin-left:20px;
 }
 
 .all_menu{
@@ -931,3 +933,60 @@ th img{
 #LessonDisplayDiv {
     height: 600px;
 }
+
+/*Reminder Page*/
+#remind{
+	background-color:#000;
+	color:#EDF0ED;
+	width:215px;
+	height:350px;
+	padding:6px 19px 15px 15px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+}
+
+#remind h3{
+	margin:0;
+	font-size:35px;
+	font-weight:100;
+}
+
+#remind_form{
+	margin-top:15px;
+}
+
+#r_submit{
+	float:right;
+	background-color:transparent;
+	color:#FFF;
+	padding:5px 10px;
+    border:1px solid #FFF;
+}
+
+#r_submit:hover{
+	background-color:#999;
+	cursor:pointer;
+}
+
+#r_date, #basic_example_2{
+	width:99% !important;
+    background-color:#FFF;
+    color:#000;
+}
+
+#r_todo {
+    color: #000;
+}
+
+.ui-datepicker{ width:212px !important; }
+.ui-timepicker-div, .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left !important; clear:left; padding: 0 0 0 5px; width:50px !important; }
+.ui-timepicker-div dl dd, .ui-datepicker-calendar th{ margin: 0 10px 10px 45%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 45% 10px 10px; }
