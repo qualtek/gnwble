@@ -69,15 +69,6 @@
       <Association Name="completion_status_staff_assigned_course" Member="staff_assigned_courses" ThisKey="id" OtherKey="completion_status_id" Type="staff_assigned_course" />
     </Type>
   </Table>
-  <Table Name="dbo.lesson" Member="lessons">
-    <Type Name="lesson">
-      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="course_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="duration_in_minutes" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Association Name="course_lesson" Member="course" ThisKey="course_id" OtherKey="id" Type="course" IsForeignKey="true" />
-    </Type>
-  </Table>
   <Table Name="dbo.staff_assigned_course" Member="staff_assigned_courses">
     <Type Name="staff_assigned_course">
       <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -102,6 +93,8 @@
       <Association Name="staff_staff_assigned_course" Member="staff_assigned_courses" ThisKey="id" OtherKey="staff_id" Type="staff_assigned_course" />
       <Association Name="staff_course" Member="courses" ThisKey="id" OtherKey="trainer_id" Type="course" />
       <Association Name="staff_performance_graph" Member="performance_graphs" ThisKey="id" OtherKey="staff_id" Type="performance_graph" />
+      <Association Name="staff_reminder" Member="reminders" ThisKey="id" OtherKey="staff_id" Type="reminder" />
+      <Association Name="staff_course_progress" Member="course_progresses" ThisKey="id" OtherKey="staff_id" Type="course_progress" />
       <Association Name="role_staff" Member="role" ThisKey="role_id" OtherKey="id" Type="role" IsForeignKey="true" />
       <Association Name="department_staff" Member="department" ThisKey="department_id" OtherKey="id" Type="department" IsForeignKey="true" />
     </Type>
@@ -122,8 +115,9 @@
       <Column Name="description" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
       <Column Name="module_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Association Name="course_assigned_course" Member="assigned_courses" ThisKey="id" OtherKey="course_id" Type="assigned_course" />
-      <Association Name="course_lesson" Member="lessons" ThisKey="id" OtherKey="course_id" Type="lesson" />
       <Association Name="course_test" Member="tests" ThisKey="id" OtherKey="course_id" Type="test" />
+      <Association Name="course_lesson" Member="lessons" ThisKey="id" OtherKey="course_id" Type="lesson" />
+      <Association Name="course_course_progress" Member="course_progresses" ThisKey="id" OtherKey="course_id" Type="course_progress" />
       <Association Name="staff_course" Member="staff" ThisKey="trainer_id" OtherKey="id" Type="staff" IsForeignKey="true" />
       <Association Name="course_type_course" Member="course_type" ThisKey="course_type_id" OtherKey="id" Type="course_type" IsForeignKey="true" />
       <Association Name="module_course" Member="module" ThisKey="module_id" OtherKey="id" Type="module" IsForeignKey="true" />
@@ -148,8 +142,8 @@
     <Type Name="test">
       <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
       <Column Name="course_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Association Name="test_test_matrix" Member="test_matrixes" ThisKey="id" OtherKey="test_id" Type="test_matrix" />
       <Association Name="test_test_result" Member="test_results" ThisKey="id" OtherKey="test_id" Type="test_result" />
+      <Association Name="test_test_matrix" Member="test_matrixes" ThisKey="id" OtherKey="test_id" Type="test_matrix" />
       <Association Name="course_test" Member="course" ThisKey="course_id" OtherKey="id" Type="course" IsForeignKey="true" />
     </Type>
   </Table>
@@ -161,6 +155,38 @@
       <Column Name="month" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
       <Column Name="year" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Association Name="staff_performance_graph" Member="staff" ThisKey="staff_id" OtherKey="id" Type="staff" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.lesson" Member="lessons">
+    <Type Name="lesson">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="course_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="duration_in_minutes" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sub_title" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="file_name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="course_lesson" Member="course" ThisKey="course_id" OtherKey="id" Type="course" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.reminder" Member="reminders">
+    <Type Name="reminder">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="staff_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="task_datetimestamp" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="entry_datetimestamp" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="task_description" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="staff_reminder" Member="staff" ThisKey="staff_id" OtherKey="id" Type="staff" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.course_progress" Member="course_progresses">
+    <Type Name="course_progress">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="course_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="staff_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="lessons_completed" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="date_stamp" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="staff_course_progress" Member="staff" ThisKey="staff_id" OtherKey="id" Type="staff" IsForeignKey="true" />
+      <Association Name="course_course_progress" Member="course" ThisKey="course_id" OtherKey="id" Type="course" IsForeignKey="true" />
     </Type>
   </Table>
 </Database>

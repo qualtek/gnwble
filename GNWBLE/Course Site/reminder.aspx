@@ -5,7 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Reminder</title>
-    <!--Reminder Page-->
       <link rel="stylesheet" href="css/style.css" type="text/css"  />
       <link rel="stylesheet" href="css/jquery-ui.css" />
       <script src="js/jquery-1.8.3.js"></script>
@@ -20,20 +19,6 @@
 	            });
 	        });
         </script>
-  
-      <!-- pop up-->
-        <link href="src/facebox.css" media="screen" rel="stylesheet" type="text/css" />
-          <script src="src/facebox.js" type="text/javascript"></script>
-          <script type="text/javascript">
-              jQuery(document).ready(function ($) {
-                  $('a[rel*=facebox]').facebox({
-                      loadingImage: 'src/loading.gif',
-                      closeImage: 'src/closelabel.png'
-                  })
-              })
-          </script>
-       <!--End of Pop up-->
-     <!--End of Reminder Page-->
 </head>
 <body>
     <form id="form1" runat="server">

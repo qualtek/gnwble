@@ -37,13 +37,33 @@
                 <asp:ListItem Text="How to add a reminder" Value="2" />
                 <asp:ListItem Text="How to logout" Value="3" />
             </asp:DropDownList>
-            <ul class="faq_list">
-                <li class="blue">How do I enter the GNWBLE Community?</li>
-                <li class="blue">How do I add a new post?</li>
-            </ul>
+
+            <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+			<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+			<script>
+			    $(function () {
+			        $(".acdn").accordion({
+			            heightStyle: "content",
+			            collapsible: true,
+			            active: false,
+			            activate: "refresh",
+			            animate: true
+			        });
+			    });
+			</script>
+            <div class="acdn">
+                <h3 class="blue">How do I enter the GNWBLE Community?</h3>
+                <div>
+                <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+                </div>
+                <h3  class="blue">How do I add a new post?</h3>
+                <div>
+                <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+                </div>
+            </div>
             <h3>Community posts</h3>
             <ul class="faq_list">
-                <li class="blue">Look for answers from your peers in the GNWBLE COmmunity</li>
+                <li><a class="blue" href="https://plus.google.com/communities/112739682321271978802" target="_blank">Look for answers from your peers in the GNWBLE Community</a></li>
             </ul>
             <h3>Still have questions?</h3>
             <asp:Button ID="faqButton1" runat="server" Text="Contact us" BackColor="#333333" Height="35px" Width="110px" ToolTip="Contact us" />

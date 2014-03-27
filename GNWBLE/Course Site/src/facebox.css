@@ -20,8 +20,8 @@
 
 #facebox .content {
   display:table;
-  width: 280px;
-  padding: 10px;
+  wi/dth: 280px;
+  pad/ding: 10px;
   background: transparent;
   -webkit-border-radius:4px;
   -moz-border-radius:4px;
@@ -39,11 +39,12 @@
   position:absolute;
   top:5px;
   right:5px;
-  padding:2px;
-  background:#055;
+  padding:2px 8px 4px 10px;
+  background:#FFF;
+  border-radius:14px;
 }
 #facebox .close img{
-  opacity:0.3;
+  opacity:0.6;
 }
 #facebox .close:hover img{
   opacity:1.0;

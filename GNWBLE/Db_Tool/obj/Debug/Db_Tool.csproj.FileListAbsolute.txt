@@ -14,3 +14,11 @@ C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\Db_Tool\bin\Debug\DAL.pdb
 C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\Db_Tool\obj\Debug\Db_Tool.csprojResolveAssemblyReference.cache
 C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\Db_Tool\obj\Debug\Db_Tool.exe
 C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\Db_Tool\obj\Debug\Db_Tool.pdb
+E:\Users\Administrator1\Documents\GitHub\gnwble\GNWBLE\Db_Tool\bin\Debug\Db_Tool.exe.config
+E:\Users\Administrator1\Documents\GitHub\gnwble\GNWBLE\Db_Tool\bin\Debug\Db_Tool.exe
+E:\Users\Administrator1\Documents\GitHub\gnwble\GNWBLE\Db_Tool\bin\Debug\Db_Tool.pdb
+E:\Users\Administrator1\Documents\GitHub\gnwble\GNWBLE\Db_Tool\bin\Debug\DAL.dll
+E:\Users\Administrator1\Documents\GitHub\gnwble\GNWBLE\Db_Tool\bin\Debug\DAL.pdb
+E:\Users\Administrator1\Documents\GitHub\gnwble\GNWBLE\Db_Tool\obj\Debug\Db_Tool.csprojResolveAssemblyReference.cache
+E:\Users\Administrator1\Documents\GitHub\gnwble\GNWBLE\Db_Tool\obj\Debug\Db_Tool.exe
+E:\Users\Administrator1\Documents\GitHub\gnwble\GNWBLE\Db_Tool\obj\Debug\Db_Tool.pdb

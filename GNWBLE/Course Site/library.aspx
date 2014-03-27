@@ -19,6 +19,49 @@
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="main_content" runat="server">
     <div id="mainContent">
+            <!--For Tree View-->
+            <script src="js/dynatree/jquery.js" type="text/javascript"></script>
+	        <script src="js/dynatree/jquery-ui.custom.js" type="text/javascript"></script>
+	        <script src="js/dynatree/jquery.cookie.js" type="text/javascript"></script>
+	        <!-- Include the basic stylesheet: -->
+	        <link href="css/dynatree/ui.dynatree.css" rel="stylesheet" type="text/css" />
+	        <!-- Override CSS with a custom stylesheet : -->
+	        <link href="css/dynatree/custom.css" rel="stylesheet" type="text/css" />
+	        <script src="js/dynatree/jquery.dynatree.js" type="text/javascript"></script>
+            <script type="text/javascript">
+                $(function () {
+                    // Attach the dynatree widget to an existing <div id="tree"> element
+                    // and pass the tree options as an argument to the dynatree() function:
+                    $("#tree").dynatree({
+                        //          autoCollapse: true,
+                        minExpandLevel: 1,
+                        //          persist: true,
+                        onPostInit: function (isReloading, isError) {
+                            this.reactivate();
+                        },
+                        onActivate: function (node) {
+                            // Use <a> href and target attributes to load the content:
+                            if (node.data.href) {
+                                // Open target
+                                var sourc = node.data.href;
+                                var pdfURL = "lesson/" + sourc;
+                                var params = {
+                                    url: pdfURL,
+
+                                    pdfOpenParams: {
+                                        navpanes: 0,
+                                        toolbar: 0,
+                                        statusbar: 0
+                                    }
+                                };
+
+                                var myPDF = new PDFObject(params).embed("LessonDisplayDiv");
+                            }
+                        }
+                    });
+                });
+            </script>
+            <!--End Tree View-->
         <div id="a-z_wrapper">
     	<div id="a-z_title">
     	Filter Modules:
@@ -56,6 +99,7 @@
         <div id="tree">
     	    <h5>Modules</h5>
 		    <ul>
+                <asp:Literal ID="ltrLibraryList" runat="server"></asp:Literal>
 			    <li class="folder">Microsoft Office Suite
 				    <ul>
 					    <li data="addClass:'custom2'">Microsoft Word

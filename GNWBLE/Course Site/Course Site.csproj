@@ -66,6 +66,7 @@
     <Content Include="css\datatable\demo_page.css" />
     <Content Include="css\datatable\demo_table_jui.css" />
     <Content Include="css\datatable\jquery-ui-1.8.4.custom.css" />
+    <Content Include="css\images\ui-icons_454545_256x240.png" />
     <Content Include="css\jquery-ui.css" />
     <Content Include="css\login.css" />
     <Content Include="css\result_page.css" />
@@ -216,6 +217,7 @@
     <Content Include="images\logo.png" />
     <Content Include="images\menu-icon.png" />
     <Content Include="images\shadow.png" />
+    <Content Include="images\spanner.png" />
     <Content Include="images\sprite.png" />
     <Content Include="js\adapters\mootools-adapter.js" />
     <Content Include="js\adapters\mootools-adapter.src.js" />

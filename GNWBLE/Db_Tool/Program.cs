@@ -12,7 +12,7 @@ namespace Db_Tool
     class Program
     {
         static DataProvider dp = DataProvider.GetInstance();
-        static fd_ua_num f = new fd_ua_num();
+        //static fd_ua_num f = new fd_ua_num();
 
         static void Main(string[] args)
         {
@@ -28,12 +28,12 @@ namespace Db_Tool
                 string ua_num = StripString(parts[0].ToString());
                 string full_name = StripString(parts[1].ToString()); ;
 
-                if (ua_num != null)
+                /*if (ua_num != null)
                 {
                     f.ua = ua_num;
                     f.full_name = full_name;
                 }
-                dp.AddUANumber(f);
+                dp.AddUANumber(f);*/
                 
                 /*ad_shop asp = new ad_shop()
                 {

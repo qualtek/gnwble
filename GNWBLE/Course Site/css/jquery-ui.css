@@ -269,7 +269,7 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-datepicker .ui-datepicker-title {
 	margin: 0 2.3em;
-	l/ine-height: 1.8em;
+	line-height: 1.8em;
 	text-align: center;
 }
 .ui-datepicker .ui-datepicker-title select {
@@ -812,7 +812,7 @@ body .ui-tooltip {
 	border: 1px solid #aaaaaa/*{borderColorContent}*/;
 	bac/kground: #ffffff/*{bgColorContent}*/ url(images/ui-bg_flat_75_ffffff_40x100.png)/*{bgImgUrlContent}*/ 50%/*{bgContentXPos}*/ 50%/*{bgContentYPos}*/ repeat-x/*{bgContentRepeat}*/;
 	color: #222222/*{fcContent}*/;
-    background-color:#005555;
+    background-color:#2D2D2D;
 }
 .ui-widget-content a {
 	color: #222222/*{fcContent}*/;

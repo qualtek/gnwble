@@ -1,25 +1,6 @@
-C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\DAL\bin\Debug\DAL.dll.config
-C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\DAL\bin\Debug\DAL.dll
-C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\DAL\bin\Debug\DAL.pdb
-C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
-C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\DAL\obj\Debug\DAL.dll
-C:\Users\Randy-Cofie\documents\visual studio 2012\Projects\GNWBLE\DAL\obj\Debug\DAL.pdb
-<<<<<<< HEAD
-=======
-C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\DAL\bin\Debug\DAL.dll.config
-C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\DAL\bin\Debug\DAL.dll
-C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\DAL\bin\Debug\DAL.pdb
-C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\DAL\obj\Debug\DAL.dll
-C:\Users\Randy-Cofie\Documents\GitHub\gnwble\GNWBLE\DAL\obj\Debug\DAL.pdb
-C:\Users\user\Documents\GitHub\gnwble\GNWBLE\DAL\bin\Debug\DAL.dll.config
-C:\Users\user\Documents\GitHub\gnwble\GNWBLE\DAL\bin\Debug\DAL.dll
-C:\Users\user\Documents\GitHub\gnwble\GNWBLE\DAL\bin\Debug\DAL.pdb
-C:\Users\user\Documents\GitHub\gnwble\GNWBLE\DAL\obj\Debug\DAL.dll
-C:\Users\user\Documents\GitHub\gnwble\GNWBLE\DAL\obj\Debug\DAL.pdb
->>>>>>> c0e08ced740cd4b822ed3ad6ebc23d6935019c03
 E:\Users\Administrator1\Documents\GitHub\gnwble\GNWBLE\DAL\bin\Debug\DAL.dll.config
 E:\Users\Administrator1\Documents\GitHub\gnwble\GNWBLE\DAL\bin\Debug\DAL.dll
 E:\Users\Administrator1\Documents\GitHub\gnwble\GNWBLE\DAL\bin\Debug\DAL.pdb
-E:\Users\Administrator1\Documents\GitHub\gnwble\GNWBLE\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 E:\Users\Administrator1\Documents\GitHub\gnwble\GNWBLE\DAL\obj\Debug\DAL.dll
 E:\Users\Administrator1\Documents\GitHub\gnwble\GNWBLE\DAL\obj\Debug\DAL.pdb
+E:\Users\Administrator1\Documents\GitHub\gnwble\GNWBLE\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache

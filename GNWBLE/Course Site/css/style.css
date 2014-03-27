@@ -1045,11 +1045,20 @@ th img{
     margin-bottom:10px;
 }
 
-.faq_list {
+.acdn {
     margin-top: 10px;
     margin-bottom: 30px;
 }
 
+.acdn h3 {
+    font-size: 1em !important;
+}
+
 .blue {
     color: #28d4eb;
+    cursor:pointer;
+}
+
+.blue:hover {
+    color: #9BFFEB;
 }

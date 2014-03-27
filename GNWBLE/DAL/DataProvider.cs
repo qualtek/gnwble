@@ -103,6 +103,45 @@ namespace DAL
         {
             return new List<role>(context.roles.AsEnumerable());
         }
+
+        public BindingList<libraryDictionary> GetListOfAllModulesCoursesAndLessons()
+        {
+            List<module> _list = new List<module>();
+            List<course> _courseList = new List<course>();
+            List<lesson> _lessonList = new List<lesson>();
+
+            _list = GetAllModules();
+            for (int i = 0; i < _list.Count; i++)
+            {
+                _courseList = GetCoursesByModuleId(_list[i].id);
+                for (int j = 0; j < _courseList.Count; j++)
+                {
+                    _lessonList = GetLessonsByCourseId(_courseList[j].id);
+
+                    Dictionary<int, libraryDictionary> map = new Dictionary<int, libraryDictionary>();
+                    libraryDictionary l = new libraryDictionary();
+
+                    map.Add(_list[i].name, l);
+                }
+            }
+        }
+
+        private List<lesson> GetLessonsByCourseId(int id)
+        {
+            return new List<lesson>(context.lessons.Where(x => x.course_id == id).AsEnumerable());
+        }
+
+        private List<course> GetCoursesByModuleId(int id)
+        {
+            return new List<course>(context.courses.Where(x => x.module_id == id).AsEnumerable());
+        }
+
+        private List<module> GetAllModules()
+        {
+            return new List<module>(context.modules.AsEnumerable());
+        }
+
+
     }
 
     public class CourseList
@@ -116,5 +155,16 @@ namespace DAL
         public string CompletionStatus { get; set; }
 
         public DateTime CompletionDate { get; set; }
+    }
+
+    public class libraryDictionary
+    {
+        private int id { get; set; }
+
+        private string module_name { get; set; }
+
+        private string course_name { get; set; }
+
+        private List<lesson> listOfLessons { get; set; }
     }
 }
